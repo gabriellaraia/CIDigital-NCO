@@ -1,0 +1,15 @@
+{C:/Users/ga052774/Desktop/Projeto NCO/V5/I2C.v} {1 {vlog -work work -stats=none {C:/Users/ga052774/Desktop/Projeto NCO/V5/I2C.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module i2c_slave
+
+Top level modules:
+	i2c_slave
+
+} {} {}} C:/Users/ga052774/Downloads/i2c/tb_i2c_slave.v {1 {vlog -work work -stats=none C:/Users/ga052774/Downloads/i2c/tb_i2c_slave.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module i2c_slave_tb
+
+Top level modules:
+	i2c_slave_tb
+
+} {} {}}

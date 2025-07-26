@@ -1,0 +1,160 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ga052774/Documents/Personal/Inatel CI Digital
+vClockDividerFF
+Z0 !s110 1753482234
+!i10b 1
+!s100 kb<P>X`1?;W4Tjo`eY]c`0
+IE;dGmTF?@06S;iCF7QzIF3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/ga052774/Desktop/Projeto NCO/V5
+w1753288663
+8C:/Users/ga052774/Desktop/Projeto NCO/V5/Clock Divider.v
+FC:/Users/ga052774/Desktop/Projeto NCO/V5/Clock Divider.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1753482234.000000
+!s107 C:/Users/ga052774/Desktop/Projeto NCO/V5/Clock Divider.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Desktop/Projeto NCO/V5/Clock Divider.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@clock@divider@f@f
+vi2c_slave
+R0
+!i10b 1
+!s100 fhBPeiA4m?<e6=NZaOe`^2
+I]GYdD@1L06K^05LNh6iUV3
+R1
+R2
+w1753288651
+8C:/Users/ga052774/Desktop/Projeto NCO/V5/I2C.v
+FC:/Users/ga052774/Desktop/Projeto NCO/V5/I2C.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/ga052774/Desktop/Projeto NCO/V5/I2C.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Desktop/Projeto NCO/V5/I2C.v|
+!i113 1
+R5
+R6
+vi2c_slave_tb
+!s110 1753482235
+!i10b 1
+!s100 =g<KTWV@5PK@gCO]L32b`3
+IhF6E0ffRP>T17J9dM5I?33
+R1
+R2
+w1753223082
+8C:/Users/ga052774/Downloads/i2c/tb_i2c_slave.v
+FC:/Users/ga052774/Downloads/i2c/tb_i2c_slave.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1753482235.000000
+!s107 C:/Users/ga052774/Downloads/i2c/tb_i2c_slave.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Downloads/i2c/tb_i2c_slave.v|
+!i113 1
+R5
+R6
+vNCO
+!s110 1753554386
+!i10b 1
+!s100 ]^cAn0::JkX7CKX<0GB;a1
+I80:5G1_gLzR`k?GIoJ7]N1
+R1
+R2
+w1753464142
+8C:/Users/ga052774/Downloads/NCO.v
+FC:/Users/ga052774/Downloads/NCO.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1753554386.000000
+!s107 C:/Users/ga052774/Downloads/NCO.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Downloads/NCO.v|
+!i113 1
+R5
+R6
+n@n@c@o
+vNCO_tb
+!s110 1753554385
+!i10b 1
+!s100 :iAWP=]Y[:VYjUd<RETm:0
+IVBYEFoT8U<hRzAiib::Zn3
+R1
+R2
+w1753464139
+8C:/Users/ga052774/Downloads/NCO_tb.v
+FC:/Users/ga052774/Downloads/NCO_tb.v
+L0 8
+R3
+r1
+!s85 0
+31
+!s108 1753554385.000000
+!s107 C:/Users/ga052774/Downloads/NCO_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Downloads/NCO_tb.v|
+!i113 1
+R5
+R6
+n@n@c@o_tb
+vtop_module
+!s110 1753484737
+!i10b 1
+!s100 SAFO??zSm;mMh5TA?Sj@<1
+Ii4gWK0?d`eEDnW0LR3FFa0
+R1
+R2
+w1753464149
+8C:/Users/ga052774/Downloads/TOP Module.v
+FC:/Users/ga052774/Downloads/TOP Module.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1753484737.000000
+!s107 C:/Users/ga052774/Downloads/TOP Module.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Downloads/TOP Module.v|
+!i113 1
+R5
+R6
+vtop_tb
+!s110 1753484738
+!i10b 1
+!s100 b@HU:3l>jAB]^7aCWhEWg3
+IOe>VWnYFd_8G;S[;j<j491
+R1
+R2
+w1753464153
+8C:/Users/ga052774/Downloads/top_tb.v
+FC:/Users/ga052774/Downloads/top_tb.v
+L0 3
+R3
+r1
+!s85 0
+31
+!s108 1753484738.000000
+!s107 C:/Users/ga052774/Downloads/top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ga052774/Downloads/top_tb.v|
+!i113 1
+R5
+R6
