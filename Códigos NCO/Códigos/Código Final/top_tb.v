@@ -147,23 +147,34 @@ module top_tb;
         // Simulacao do envio do endereco pelo mestre no modo escrita
         $display("Iniciando operacao de escrita...");
 
-        // start_transmission();
-        // send_ctrl(8'b00000101);
-        // stop_transmission();
-
-        // #100;
-        // start_transmission();
-        // send_ctrl(8'b00010101);
-        // send_freq(64'b0000000000000001110101001100000000000000000000000000000000000000);
-        // stop_transmission();
+         start_transmission();
+        send_ctrl(8'b00010011);
+        send_freq(64'b0000000000000001110101001100000000000000000000000000000000000000);
+        send_duty(16'b1000000000000000);
+        stop_transmission();
+        #300_0000;
+        
+        start_transmission();
+        send_ctrl(8'b00001101);
+        send_freq(64'b0000011000000001110101001100000000000000000000000000000000000000);
+        send_duty(16'b1000000000000000);
+        stop_transmission();
+        #300_0000;
 
         // #100;
         start_transmission();
         send_ctrl(8'b00010001);
-        send_freq(64'b0000000000000001110101001100000000000000000000000000000000000000);
-        // send_duty(16'b1000000000000000);
+        send_freq(64'b0000000000000001110101001100000000000000000000000000000000000111);
+        send_duty(16'b1000000000000000);
         stop_transmission();
-        #300_00000;
+        #300_0000;
+
+          start_transmission();
+        send_ctrl(8'b0000111);
+        send_freq(64'b0000000000000001110101001100000000000000000000000000000000001010);
+        send_duty(16'b1000000000000000);
+        stop_transmission();
+        #300_0000;
 
         $stop;
     end

@@ -161,6 +161,20 @@ module i2c_slave_tb;
         start_transmission();
         send_ctrl(8'b00001101);
         send_duty(16'b1000000000000000);
+        send_freq(64'b0000000000000001110101001100000000000000000011000000000000001110);
+        stop_transmission();
+
+        #100;
+        start_transmission();
+        send_ctrl(8'b00001111);
+        send_duty(16'b1000000110000001);
+        stop_transmission();
+
+        #100;
+        start_transmission();
+        send_ctrl(8'b00010001);
+        send_freq(64'b0000000000000001110101001100000000000000000000000000000000000000);
+        send_duty(16'b1000000000000000);
         stop_transmission();
 
         $stop;
